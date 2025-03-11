@@ -1,0 +1,33 @@
+/* src/components/Header/NavBar.css */
+nav {
+    display: flex;
+    /* Asegura que el contenedor nav sea flexible */
+    justify-content: flex-end;
+    /* Justifica los elementos del nav a la derecha */
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* Asegura que los elementos de la lista se alineen en fila */
+    gap: 20px;
+    /* Espaciado entre los enlaces */
+    margin: 0;
+    /* Elimina el margen por defecto de los elementos de la lista */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
